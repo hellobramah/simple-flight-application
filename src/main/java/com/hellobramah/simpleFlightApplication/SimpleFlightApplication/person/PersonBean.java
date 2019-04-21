@@ -1,16 +1,16 @@
-package com.hellobramah.simpleFlightApplication.SimpleFlightApplication.user;
+package com.hellobramah.simpleFlightApplication.SimpleFlightApplication.person;
 
 import java.util.Date;
 
-public class User {
+public class PersonBean {
 	private Integer ID;
 	private String name;
 	private Date birthDate;
 	
-	public User() {
+	public PersonBean() {
 		
 	}
-	public User(Integer iD, String name, Date birthDate) {
+	public PersonBean(Integer iD, String name, Date birthDate) {
 		super();
 		ID = iD;
 		this.name = name;
